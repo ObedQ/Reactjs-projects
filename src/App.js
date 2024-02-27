@@ -8,6 +8,7 @@ import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/random-color";
 import ScrollIndicator from "./components/scroll-indicator";
+import SearchAutoComplete from "./components/search-autocomplete";
 import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
@@ -41,7 +42,9 @@ function App() {
       {/* custom-tab */}
       {/* <TabTest/> */}
       {/* custom-modal component */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+      {/* search autocomplete */}
+      <SearchAutoComplete/>
     </div>
   );
 }
