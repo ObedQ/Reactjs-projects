@@ -13,6 +13,7 @@ import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnClickOutsideTest from "./components/use-outside-click/test";
 
 function App() {
   return (
@@ -47,7 +48,9 @@ function App() {
       {/* search autocomplete */}
       {/* <SearchAutoComplete/> */}
       {/* Use fetch custom hook */}
-      <UseFetchHookTest/>
+      {/* <UseFetchHookTest/> */}
+      {/* use onclick outside hook */}
+      <UseOnClickOutsideTest/>
     </div>
   );
 }
